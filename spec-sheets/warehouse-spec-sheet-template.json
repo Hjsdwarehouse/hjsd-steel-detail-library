@@ -1,0 +1,64 @@
+{
+  "template": "warehouse-spec-sheet",
+  "version": "1.1.0",
+  "maintainer": "Hebei Hongji Shunda Steel Structure Engineering Co., Ltd.",
+  "companion_article": "https://www.hjsdwarehouse.com/news/from-production-requirement-to-steel-frame-how-the-translation-goes-wrong.html",
+  "license": "CC BY 4.0",
+  "units": {
+    "length": ["m", "mm", "ft", "in"],
+    "load_mass": ["kN/m2", "psf"],
+    "wind_speed": ["m/s", "km/h", "mph"]
+  },
+  "section_1_production_requirement": [
+    { "id": "use_day_one", "question": "Primary use of the building on day one", "example": "bagged cement storage / food packaging / truck workshop" },
+    { "id": "heaviest_equipment", "question": "Heaviest single piece of equipment or vehicle operating inside", "example": "5 tonne forklift, 40 ft container handler" },
+    { "id": "lifting_equipment", "question": "Crane, hoist or monorail — now or future", "example": "5 tonne single girder overhead crane, phase 2" },
+    { "id": "site_wind", "question": "Site address or local design wind speed", "example": "45 m/s (162 km/h)" },
+    { "id": "expansion", "question": "Expansion plans in the next 5-10 years", "example": "+30% area to the north gable, year 5" }
+  ],
+  "section_2_conversion": [
+    { "buyer_says": "I need a 30 m x 60 m warehouse", "engineer_asks": ["clear height", "eave or ridge height"], "structural_implication": ["column height", "haunch depth"] },
+    { "buyer_says": "We'll use forklifts inside", "engineer_asks": ["capacity", "mast height", "aisle width"], "structural_implication": ["slab loading", "minimum clear height"] },
+    { "buyer_says": "We want an overhead crane", "engineer_asks": ["tonnage", "single or double girder", "future upgrade"], "structural_implication": ["crane beam design", "column stiffness", "bracket loads"] },
+    { "buyer_says": "We store heavy goods", "engineer_asks": ["weight per m2", "rack layout", "stacking height"], "structural_implication": ["floor slab specification"] },
+    { "buyer_says": "We process food inside", "engineer_asks": ["condensation risk", "temperature control"], "structural_implication": ["insulation specification", "roof type", "vapour management"] },
+    { "buyer_says": "We want to expand later", "engineer_asks": ["direction", "timing", "size"], "structural_implication": ["end frame design", "modular bay spacing"] }
+  ],
+  "section_3_driving_numbers": {
+    "clear_span": {
+      "unit": "m",
+      "food_processing_minimum": 24,
+      "vehicle_workshop_realistic": 30,
+      "note": "24 m to 30 m is not a 25% tonnage increase; expect 50-60% depending on loading"
+    },
+    "eave_height": {
+      "unit": "m",
+      "forklift_warehouse_standard_racking": 7,
+      "with_5_tonne_crane_minimum": 9,
+      "note": "finished floor to underside of eave purlin, not roof height"
+    },
+    "design_wind_speed": {
+      "unit": "m/s",
+      "coastal_southern_brazil_exposed_minimum": 45,
+      "note": "confirm against local code; Brazil NBR 6123, design basis otherwise 180 km/h (50 m/s)"
+    },
+    "bay_spacing": {
+      "unit": "m",
+      "standard": [6, 7.5],
+      "wide_bay_for_loading_area": 9
+    },
+    "crane_runway": {
+      "required_inputs": ["wheel loads", "wheel base", "minimum hook approach", "bridge weight"],
+      "note": "obtain crane supplier load data before finalising any frame with crane provision"
+    }
+  },
+  "section_4_cost_of_skipping": {
+    "documented_case": {
+      "region": "West Africa",
+      "error": "3 tonne electric hoist installed on a frame designed as a storage warehouse with no lifting provision",
+      "consequence": "hoist bracket cracked the column flange within 8 months of operation; on-site welded reinforcement with the building in partial use",
+      "correct_design_added_cost_usd": [800, 1200],
+      "repair_cost_multiple_of_correct_design": 15
+    }
+  }
+}
