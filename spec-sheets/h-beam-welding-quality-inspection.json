@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "document_title": "Built-Up H-Beam Welding Quality and Inspection Parameters",
+    "company_legal_name_cn": "河北宏基舜达钢结构工程股份有限公司",
+    "company_name_en": "Hebei Hongji Shunda Steel Structure Engineering Co., Ltd.",
+    "applicable_quality_system": "ISO 9001 certified quality management system",
+    "target_markets": [
+      "Sub-Saharan Africa",
+      "South America"
+    ],
+    "date_issued": "2026-10-10",
+    "author": "Johnny Joe, Senior Export Engineer"
+  },
+  "welding_process_parameters": {
+    "process_type": "Automated Gantry Twin-Wire Submerged Arc Welding (SAW)",
+    "current_range_amperes": "450 - 650 A",
+    "voltage_range_volts": "30 - 34 V",
+    "travel_speed": {
+      "metric_mm_per_min": "450 - 600 mm/min",
+      "imperial_in_per_min": "17.7 - 23.6 in/min"
+    },
+    "edge_preparation": {
+      "bevel_angle_degrees": 45,
+      "bevel_type": "Single-bevel / Double-bevel with root face",
+      "root_face_metric_mm": 2.0,
+      "root_face_imperial_in": 0.08,
+      "web_thickness_threshold_metric_mm": 10.0,
+      "web_thickness_threshold_imperial_in": 0.39
+    }
+  },
+  "fabrication_tolerances": {
+    "flange_perpendicularity": {
+      "metric": "1.0 mm per 100 mm of flange width",
+      "imperial": "0.04 in per 4.0 in of flange width"
+    },
+    "flange_straightening_method": "Mechanical hydraulic three-roll straightening",
+    "effective_weld_throat_minimum": {
+      "metric_mm": 8.0,
+      "imperial_in": 0.31
+    },
+    "weld_reinforcement_crown_height": {
+      "metric_mm": "1.5 - 3.0 mm",
+      "imperial_in": "0.06 - 0.12 in"
+    },
+    "maximum_allowable_undercut": {
+      "metric_mm": 0.5,
+      "imperial_in": 0.02
+    }
+  },
+  "non_destructive_testing_ndt": {
+    "visual_and_dimensional_inspection": "100% of fabricated built-up members",
+    "ultrasonic_testing_ut": {
+      "coverage": "100% of primary crane runway girders and moment connection rafters",
+      "probe_types": [
+        "45-degree shear-wave transducer",
+        "60-degree shear-wave transducer"
+      ],
+      "rejection_criteria": "Any planar defect, lack of fusion, or slag inclusion > 2.0 mm (0.08 in)"
+    },
+    "magnetic_particle_testing_mt": "Applied to critical baseplate moment connections and bracket joints"
+  }
+}
