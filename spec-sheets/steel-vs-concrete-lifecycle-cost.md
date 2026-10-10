@@ -10,7 +10,7 @@
 
 ## Why this sheet exists
 
-Tender comparisons between structural steel and reinforced concrete normally compare material purchase. That is less than 45% of total project expenditure. This sheet publishes the engineering parameters we compare instead — dead load, foundation volume, excavation depth, clear span, schedule and maintenance interval — so a buyer can test any proposal against the same set.
+Tender comparisons between structural steel and reinforced concrete normally compare material purchase. That is only a minority of total project expenditure. This sheet publishes the engineering parameters we compare instead — dead load, foundation volume, excavation depth, clear span, schedule and maintenance interval — so a buyer can test any proposal against the same set.
 
 Baseline: a 10,000 m² (107,640 sq ft) logistics hub or industrial workshop, assessed over a 20-year operational lifecycle.
 
@@ -18,7 +18,7 @@ Baseline: a 10,000 m² (107,640 sq ft) logistics hub or industrial workshop, ass
 
 ## 1. Headline result
 
-A prefabricated structural steel warehouse delivers a **22%–28% total cost advantage** over cast-in-place reinforced concrete over 20 years, driven by lighter framing, smaller foundations and earlier revenue generation.
+A prefabricated structural steel warehouse delivers a **decisive total cost advantage** over cast-in-place reinforced concrete over 20 years, driven by lighter framing, smaller foundations and earlier revenue generation.
 
 ---
 
@@ -36,7 +36,7 @@ A prefabricated structural steel warehouse delivers a **22%–28% total cost adv
 **Design dead load range, concrete frame:** approximately 160–220 kg/m² (32.8–45.1 lb/ft²).
 **Design dead load range, steel portal frame:** 28–38 kg/m² (5.7–7.8 lb/ft²).
 
-**Worked foundation case:** on alluvial delta sites where soil bearing capacity falls below 120 kPa (2.5 ksf), moving from a reinforced concrete frame to a lightweight prefabricated steel frame reduces foundation concrete volume from 2,200 m³ (2,877 yd³) to 900 m³ (1,177 yd³) — roughly a 60% cut in the subsurface civil works package of excavation, piling and footings.
+**Worked foundation case:** on alluvial delta sites where soil bearing capacity falls below 120 kPa (2.5 ksf), moving from a reinforced concrete frame to a lightweight prefabricated steel frame reduces foundation concrete volume from 2,200 m³ (2,877 yd³) to 900 m³ (1,177 yd³) — a substantial reduction in the subsurface civil works package of excavation, piling and footings.
 
 ---
 
