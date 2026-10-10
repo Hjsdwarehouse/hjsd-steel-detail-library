@@ -1,6 +1,6 @@
 {
   "template": "warehouse-spec-sheet",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_note": "compliance revision 2026-10-10",
   "maintainer": "Hebei Hongji Shunda Steel Structure Engineering Co., Ltd.",
   "companion_article": "https://www.hjsdwarehouse.com/news/from-production-requirement-to-steel-frame-how-the-translation-goes-wrong.html",
@@ -17,8 +17,7 @@
       "psf"
     ],
     "wind_speed": [
-      "km/h",
-      "mph"
+      "km/h"
     ]
   },
   "section_1_production_requirement": [
