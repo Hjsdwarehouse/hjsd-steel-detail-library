@@ -1,0 +1,116 @@
+{
+  "template": "steel-vs-concrete-lifecycle-cost",
+  "version": "1.0.0",
+  "generated": "2026-10-10",
+  "maintainer": "Hebei Hongji Shunda Steel Structure Engineering Co., Ltd.",
+  "companion_article": "https://www.hjsdwarehouse.com/news/structural-steel-vs-reinforced-concrete-an-honest-20-year-cost-comparison.html",
+  "license": "CC BY 4.0",
+  "units": {
+    "length": ["m", "mm", "ft", "in"],
+    "area": ["m2", "sq ft"],
+    "volume": ["m3", "yd3", "ft3/sq ft"],
+    "load_mass": ["kg/m2", "lb/ft2"],
+    "bearing_capacity": ["kPa", "ksf"],
+    "coating_thickness": ["um", "mils"],
+    "strength": ["MPa", "psi"],
+    "time": ["months", "working_days", "years"]
+  },
+  "assumptions": {
+    "building_area": { "metric": 10000, "unit": "m2", "imperial": 107640, "imperial_unit": "sq ft" },
+    "building_type": "logistics hub or industrial workshop",
+    "assessment_period_years": 20,
+    "material_purchase_share_of_total_project_expenditure_percent_max": 45
+  },
+  "headline": {
+    "total_cost_advantage_over_concrete_percent": { "min": 22, "max": 28, "period_years": 20 }
+  },
+  "parameter_matrix": [
+    {
+      "parameter": "superstructure_dead_load",
+      "concrete": { "metric": 180, "unit": "kg/m2", "imperial": 36.9, "imperial_unit": "lb/ft2" },
+      "steel": { "metric": 32, "unit": "kg/m2", "imperial": 6.6, "imperial_unit": "lb/ft2" },
+      "impact": "82% lighter framing package"
+    },
+    {
+      "parameter": "footing_concrete_volume",
+      "concrete": { "metric": 0.22, "unit": "m3/m2", "imperial": 0.72, "imperial_unit": "ft3/sq ft" },
+      "steel": { "metric": 0.09, "unit": "m3/m2", "imperial": 0.30, "imperial_unit": "ft3/sq ft" },
+      "impact": "59% reduction in footing concrete"
+    },
+    {
+      "parameter": "foundation_excavation_depth",
+      "concrete": { "min": 2.5, "max": 3.5, "unit": "m", "imperial_min": 8.2, "imperial_max": 11.5, "imperial_unit": "ft" },
+      "steel": { "min": 1.2, "max": 1.8, "unit": "m", "imperial_min": 3.9, "imperial_max": 5.9, "imperial_unit": "ft" },
+      "impact": "substantial shoring and dewatering savings"
+    },
+    {
+      "parameter": "usable_clear_span_capacity",
+      "concrete": { "min": 18, "max": 24, "unit": "m", "imperial_min": 59.1, "imperial_max": 78.7, "imperial_unit": "ft" },
+      "steel": { "min": 30, "max": 48, "unit": "m", "imperial_min": 98.4, "imperial_max": 157.5, "imperial_unit": "ft" },
+      "impact": "zero interior column obstructions"
+    },
+    {
+      "parameter": "total_construction_schedule",
+      "concrete": { "min": 10, "max": 14, "unit": "months" },
+      "steel": { "min": 4, "max": 6, "unit": "months" },
+      "impact": "5 to 8 months earlier commercial lease income"
+    }
+  ],
+  "frame_design_ranges": {
+    "concrete_column_section": { "metric": "500x500", "unit": "mm", "imperial": "20x20", "imperial_unit": "in" },
+    "concrete_design_dead_load": { "min": 160, "max": 220, "unit": "kg/m2", "imperial_min": 32.8, "imperial_max": 45.1, "imperial_unit": "lb/ft2" },
+    "steel_design_dead_load": { "min": 28, "max": 38, "unit": "kg/m2", "imperial_min": 5.7, "imperial_max": 7.8, "imperial_unit": "lb/ft2" }
+  },
+  "worked_foundation_case": {
+    "site_condition": "alluvial delta sites along African and South American port corridors",
+    "soil_bearing_capacity_below": { "metric": 120, "unit": "kPa", "imperial": 2.5, "imperial_unit": "ksf" },
+    "foundation_concrete_volume_concrete_frame": { "metric": 2200, "unit": "m3", "imperial": 2877, "imperial_unit": "yd3" },
+    "foundation_concrete_volume_steel_frame": { "metric": 900, "unit": "m3", "imperial": 1177, "imperial_unit": "yd3" },
+    "reduction_percent": 60,
+    "note": "subsurface civil works package: excavation, piling and footings"
+  },
+  "schedule_mechanics": {
+    "concrete_cure_before_heavy_formwork_percent_of_design_strength": 75,
+    "concrete_cure_period_days": 21,
+    "concrete_strength": { "metric": 30, "unit": "MPa", "imperial": 4350, "imperial_unit": "psi" },
+    "steel_skeleton_erection_working_days": { "min": 25, "max": 35 },
+    "steel_skeleton_erection_equipment": "mobile cranes",
+    "curing_time_after_steel_erection": 0,
+    "rental_yield_offset_percent_of_structural_package": 20,
+    "parallel_execution": "primary columns, rafters and cold-formed Z-purlins fabricated off site while the civil contractor pours footings and installs anchor bolt cages",
+    "fabrication_quality_system": "certified ISO 9001 quality management system"
+  },
+  "clear_span_and_area": {
+    "concrete_unbraced_span_limit_m": 24,
+    "concrete_unbraced_span_limit_ft": 78.7,
+    "concrete_requires_post_tensioned_precast_beams_beyond_limit": true,
+    "concrete_typical_internal_column_grid": { "metric": ["8x12 m", "10x12 m"], "imperial": ["26.2x39.4 ft", "32.8x39.4 ft"] },
+    "steel_achievable_clear_spans_m": [30, 36, 48],
+    "steel_achievable_clear_spans_ft": [98.4, 118.1, 157.5],
+    "usable_storage_volume_gain_percent": { "min": 8, "max": 12 }
+  },
+  "maintenance_20_year": {
+    "factory_coating_system": {
+      "environment": "moderate industrial or inland",
+      "dry_film_thickness": { "metric": 160, "unit": "um", "imperial": 6.3, "imperial_unit": "mils" },
+      "service_life_years": { "min": 15, "max": 20 },
+      "note": "epoxy zinc-rich primer plus aliphatic polyurethane topcoat, before major overcoating"
+    },
+    "hot_dip_galvanizing": {
+      "coating_thickness": { "metric": 85, "unit": "um", "imperial": 3.3, "imperial_unit": "mils" },
+      "zinc_mass": { "metric": 610, "unit": "g/m2", "imperial": 2.0, "imperial_unit": "oz/ft2" },
+      "maintenance_interval_years_min": 25
+    },
+    "concrete_expansion_joint_recaulking_years": { "min": 3, "max": 5 },
+    "concrete_failure_modes": [
+      "carbonation and rebar corrosion in coastal or industrial atmospheres",
+      "spalling repairs requiring hydro-demolition and structural patch mortars",
+      "invasive core drilling and carbon-fibre reinforcement for any modification"
+    ]
+  },
+  "concrete_remains_preferred_for": [
+    "ground-supported floor slabs",
+    "retaining walls",
+    "perimeter security plinths up to 1.2 m (3.9 ft) in height"
+  ]
+}

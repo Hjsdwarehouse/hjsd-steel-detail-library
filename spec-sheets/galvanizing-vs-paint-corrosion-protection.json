@@ -1,0 +1,115 @@
+{
+  "template": "galvanizing-vs-paint-corrosion-protection",
+  "version": "1.0.0",
+  "generated": "2026-10-10",
+  "maintainer": "Hebei Hongji Shunda Steel Structure Engineering Co., Ltd.",
+  "companion_article": "https://www.hjsdwarehouse.com/news/hot-dip-galvanizing-vs-paint-which-corrosion-protection-is-right-for-your-building.html",
+  "license": "CC BY 4.0",
+  "units": {
+    "coating_thickness": ["um", "mils"],
+    "length": ["m", "km", "ft", "miles"],
+    "temperature": ["C", "F"],
+    "service_life": ["years"]
+  },
+  "dry_film_thickness": {
+    "paint_system_mild_to_moderate_inland": {
+      "unit": "um",
+      "min": 160,
+      "max": 240,
+      "imperial_mils": [6.3, 9.4],
+      "note": "across the complete multi-coat system"
+    },
+    "paint_system_highly_corrosive_coastal": {
+      "unit": "um",
+      "min": 200,
+      "max": 280,
+      "imperial_mils": [7.9, 11.0],
+      "note": "high-build, zinc-rich primer + epoxy + polyurethane topcoat"
+    },
+    "hot_dip_galvanizing": {
+      "unit": "um",
+      "min": 45,
+      "max": 85,
+      "imperial_mils": [1.8, 3.3],
+      "note": "zinc coating on structural sections; thinner than paint but metallurgically bonded"
+    }
+  },
+  "protection_by_component": [
+    {
+      "component": "Primary structural members (columns, rafters)",
+      "recommended_protection": "High-build paint - zinc-rich primer + epoxy + polyurethane topcoat, near-white blast preparation",
+      "reason": "Large members, handled carefully, protected by cladding"
+    },
+    {
+      "component": "Secondary purlins and girts",
+      "recommended_protection": "Hot-dip galvanized",
+      "reason": "High surface area, site-cut frequently, abrasion-prone during installation"
+    },
+    {
+      "component": "Bolts, nuts, washers",
+      "recommended_protection": "Hot-dip galvanized or mechanical zinc plating",
+      "reason": "Small parts, high surface-to-volume ratio, critical fastening function"
+    },
+    {
+      "component": "Anchor bolts (below-grade or grout-encased)",
+      "recommended_protection": "Hot-dip galvanized",
+      "reason": "Partially inaccessible after construction; repair extremely difficult"
+    },
+    {
+      "component": "Roof and wall cladding",
+      "recommended_protection": "Aluminium-zinc alloy coated steel, or HDG with colour coat",
+      "reason": "Thin gauge - paint-only on thin sheet has a limited life in highly corrosive coastal exposure"
+    },
+    {
+      "component": "Crane beams and runway rails",
+      "recommended_protection": "Heavy-build epoxy paint with inspection protocol",
+      "reason": "Hot-dip galvanizing not typically available in the required sections"
+    }
+  ],
+  "service_life": {
+    "hot_dip_galvanizing_maintenance_free_years": {
+      "min": 20,
+      "max": 40,
+      "note": "governed by site corrosivity"
+    },
+    "three_coat_paint_inland_service_years": {
+      "min": 15,
+      "max": 20,
+      "note": "with annual inspection and minor spot repairs"
+    }
+  },
+  "environment": {
+    "coastal_zone_definition": {
+      "distance_from_open_sea": {
+        "unit": "km",
+        "min": 1,
+        "max": 3,
+        "imperial_miles": [0.6, 1.9]
+      },
+      "climate": "tropical",
+      "classification": "severely corrosive"
+    },
+    "relative_degradation_most_aggressive_coastal_vs_moderate_inland": {
+      "paint_system_factor": 2,
+      "note": "approximately double the rate"
+    },
+    "galvanizing_bath_temperature": {
+      "unit": "C",
+      "value": 450,
+      "imperial_fahrenheit": 840,
+      "note": "molten zinc bath"
+    }
+  },
+  "field_checks": [
+    {
+      "id": "surface_preparation",
+      "requirement": "Near-white blast cleaning verified by visual comparison against reference photographs of correctly prepared surfaces, or by a surface profile gauge.",
+      "failure_mode": "Power-tool grinding without blasting shortens service life regardless of paint quality."
+    },
+    {
+      "id": "dry_film_thickness",
+      "requirement": "Measured per coat and at final completion with a certified gauge; specification states min and max for each coat and for the total system.",
+      "failure_mode": "A supplier who cannot specify thickness by coat is not controlling the output."
+    }
+  ]
+}
