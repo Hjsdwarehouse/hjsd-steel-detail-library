@@ -1,6 +1,6 @@
 {
   "template": "steel-vs-concrete-lifecycle-cost",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "generated": "2026-10-10",
   "maintainer": "Hebei Hongji Shunda Steel Structure Engineering Co., Ltd.",
   "companion_article": "https://www.hjsdwarehouse.com/news/structural-steel-vs-reinforced-concrete-an-honest-20-year-cost-comparison.html",
@@ -19,10 +19,10 @@
     "building_area": { "metric": 10000, "unit": "m2", "imperial": 107640, "imperial_unit": "sq ft" },
     "building_type": "logistics hub or industrial workshop",
     "assessment_period_years": 20,
-    "material_purchase_share_of_total_project_expenditure_percent_max": 45
+    "material_purchase_share_of_total_project_expenditure": "the structural framing package represents only a minority of total project expenditure"
   },
   "headline": {
-    "total_cost_advantage_over_concrete_percent": { "min": 22, "max": 28, "period_years": 20 }
+    "total_cost_advantage_over_concrete": { "statement": "a decisive total cost advantage over cast-in-place reinforced concrete, driven by a large reduction in superstructure self-weight, a substantial foundation savings, and an average five-month acceleration", "period_years": 20 }
   },
   "parameter_matrix": [
     {
@@ -66,7 +66,7 @@
     "soil_bearing_capacity_below": { "metric": 120, "unit": "kPa", "imperial": 2.5, "imperial_unit": "ksf" },
     "foundation_concrete_volume_concrete_frame": { "metric": 2200, "unit": "m3", "imperial": 2877, "imperial_unit": "yd3" },
     "foundation_concrete_volume_steel_frame": { "metric": 900, "unit": "m3", "imperial": 1177, "imperial_unit": "yd3" },
-    "reduction_percent": 60,
+    "reduction_description": "a substantial reduction in the subsurface civil works package",
     "note": "subsurface civil works package: excavation, piling and footings"
   },
   "schedule_mechanics": {
