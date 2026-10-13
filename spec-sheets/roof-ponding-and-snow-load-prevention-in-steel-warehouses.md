@@ -10,6 +10,9 @@ A low-slope industrial steel roof designed with a pitch under 3% (1:33) will exp
 
 In modern prefabricated logistics hubs and processing plants engineered across South America and Sub-Saharan Africa, roof safety is not merely a question of static snow tables. Under our ISO 9001 certified quality management system, our structural engineering team models the coupled interaction of primary frame flexure, cold-formed secondary Z-purlin stiffness, positive rafter fabrication camber, and independent hydraulic overflow paths.
 
+![Field inspection of low-slope steel warehouse roof framing under extreme precipitation](https://images.exportstart.com/images/a1214/roof-ponding-13-213.webp)  
+*Fig. 1: Field inspection of prefabricated low-slope steel warehouse roof framing under extreme storm downpours. Proper 5% slope and continuous drainage paths prevent progressive water accumulation.*
+
 ### The Physics of Ponding Instability: The Non-Linear Weight Trap
 
 Steel roof framing does not collapse because rain or snow is heavy; it collapses because the framing deflects under load, creating an artificial reservoir that was never accounted for in one-dimensional calculations.
@@ -21,6 +24,9 @@ When purlins flex mid-span by even 25 mm (1.0 in), rainwater flows toward that l
 This dynamic mechanism mirrors the violent aerodynamic forces detailed in our investigation of [cyclone wind uplift failure analysis](https://www.hjsdwarehouse.com/news/why-warehouse-roofs-fail-in-cyclones-uplift-vortices-and-door-blowouts.html), where pressure differentials capitalize on the weakest structural link. In ponding, gravity and hydraulic accumulation perform the destructive work.
 
 ### Purlin Sizing and Deflection Limits: Why L/180 Is Dangerous
+
+![Structural CAD drawing showing rafter camber, continuous Z-purlin lap, and overflow drainage scupper](https://images.exportstart.com/images/a1214/purlin-spec-13-410.webp)  
+*Fig. 2: Technical 2D structural detail blueprint showing rafter fabrication camber profile, cold-formed Z-purlin lap continuity, and perimeter parapet emergency overflow scupper section.*
 
 Many budget-driven fabricators cut steel tonnage by sizing cold-formed purlins to a lenient live-load deflection limit of L/180. On a 7.5-meter (24.6 ft) bay spacing, an L/180 threshold allows a mid-span sag of 41.7 mm (1.64 in). 
 
