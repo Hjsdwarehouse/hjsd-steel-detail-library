@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "document_title": "Roof Ponding and Snow Load Design Engineering Parameters",
+    "company_legal_name_cn": "河北宏基舜达钢结构工程股份有限公司",
+    "company_name_en": "Hebei Hongji Shunda Steel Structure Engineering Co., Ltd.",
+    "applicable_quality_system": "ISO 9001 certified quality management system",
+    "target_markets": [
+      "Sub-Saharan Africa",
+      "South America"
+    ],
+    "date_issued": "2026-10-13",
+    "author": "Johnny Joe, Senior Export Engineer",
+    "canonical_article_url": "https://www.hjsdwarehouse.com/news/roof-ponding-and-snow-load-prevention-in-steel-warehouses.html"
+  },
+  "hydraulic_and_ponding_load_criteria": {
+    "water_density_kg_per_m3": 1000,
+    "unit_gravity_load_per_100mm_depth": {
+      "metric_kn_per_m2": 1.0,
+      "imperial_psf": 20.9
+    },
+    "critical_roof_slope_threshold": {
+      "percentage": 3.0,
+      "ratio": "1:33"
+    },
+    "recommended_high_precipitation_slope": {
+      "percentage": 5.0,
+      "ratio": "1:20"
+    },
+    "nominal_roof_live_load_range": {
+      "metric_kn_per_m2": "0.30 - 0.50 kN/m²",
+      "imperial_psf": "6.3 - 10.4 psf"
+    },
+    "high_altitude_snow_load_range": {
+      "metric_kn_per_m2": "1.50 - 2.50 kN/m²",
+      "imperial_psf": "31.3 - 52.2 psf"
+    }
+  },
+  "secondary_purlin_engineering_limits": {
+    "steel_grade": "Q355B low-alloy structural steel",
+    "minimum_yield_strength": {
+      "metric_mpa": 355,
+      "imperial_ksi": 51.5
+    },
+    "deflection_limits": {
+      "standard_purlin_total_load": "L/240 to L/300",
+      "purlin_with_plaster_ceiling_or_pv": "L/360",
+      "unacceptable_budget_threshold": "L/180"
+    },
+    "continuous_lap_length_over_rafter": {
+      "metric_mm": "600 - 900 mm",
+      "imperial_in": "23.6 - 35.4 in"
+    },
+    "connection_bolts": "Grade 8.8 high-strength bolts",
+    "bending_moment_reduction_via_continuity": "30% - 40%",
+    "sag_rod_configuration": "Double sag rods with diagonal tie-struts at third points for bay spacing > 6.0 m (19.7 ft)"
+  },
+  "primary_rafter_camber_specifications": {
+    "camber_compensation_basis": "100% of permanent dead load deflection + 50% of secondary snow/ponding deflection",
+    "typical_camber_range": {
+      "metric_mm": "30 - 65 mm",
+      "imperial_in": "1.18 - 2.56 in"
+    },
+    "clear_span_applicability": {
+      "metric_m": "24 - 48 m",
+      "imperial_ft": "78.7 - 157.5 ft"
+    }
+  },
+  "emergency_secondary_drainage": {
+    "system_type": "100% gravity-driven passive scupper relief",
+    "minimum_scupper_dimensions": {
+      "width_metric_mm": 300,
+      "width_imperial_in": 11.8,
+      "height_metric_mm": 150,
+      "height_imperial_in": 5.9
+    },
+    "scupper_invert_height_above_deck": {
+      "metric_mm": 50,
+      "imperial_in": 1.97
+    },
+    "design_redundancy": "100% maximum storm runoff capacity assuming all internal downspouts are fully blocked"
+  }
+}
